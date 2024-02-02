@@ -1,5 +1,5 @@
 pipeline {
-tools { docker 'docker' }
+tools { dockerTool 'docker' }
 agent { dockerfile true}
     stages {
         stage('Cloning Git') {
